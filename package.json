@@ -1,0 +1,22 @@
+{
+    "name": "progress-bar-es6",
+    "version": "1.0.0",
+    "description": "A utility for creating text-based progress bars.",
+    "main": "dist/index.js",
+    "scripts": {
+      "build": "mkdir -p dist && cp src/index.js dist/index.js",
+      "prepare": "npm run build"
+    },
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/SouthCtrl/progress-bar-es6.git"
+    },
+    "keywords": ["progress", "progress-bar", "utility", "text", "npm-package"],
+    "author": "greg4ms",
+    "license": "MIT",
+    "engines": {
+      "node": ">=14.0.0"
+    },
+    "dependencies": {}
+  }
+  
